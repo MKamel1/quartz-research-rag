@@ -7,7 +7,7 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
-    baseUrl: "github.io",
+    baseUrl: "MKamel1.github.io/quartz-research-rag",
     ignorePatterns: ["private", "templates", ".obsidian"],
     theme: {
       typography: {
