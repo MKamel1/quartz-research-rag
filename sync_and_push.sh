@@ -6,6 +6,7 @@ VAULT_DIR="/home/omar/obsidian-vaults/research-system-rag"
 
 echo "[1/3] Syncing latest Obsidian vault notes to Quartz content directory..."
 rsync -a --delete --exclude '.obsidian' "$VAULT_DIR/" "$SCRIPT_DIR/content/"
+cp -f "$SCRIPT_DIR/index.md" "$SCRIPT_DIR/content/index.md"
 
 echo "[2/3] Verifying Quartz static compilation locally..."
 cd "$SCRIPT_DIR"
