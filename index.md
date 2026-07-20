@@ -40,3 +40,14 @@ To begin navigating the codebase architecture, start exploring from these core n
 | **Graph Edges** | `8,296 relationships` |
 | **Detected Communities** | `182 semantic clusters` |
 | **Engine** | `Quartz v4.0.8 + D3 Force Layout` |
+
+---
+
+## ⚙️ D3 Graph Physics & Readability Calibration
+
+Because a complete codebase extraction generates over `3,250 nodes` (`test_*.md` unit tests, `__init__.py` modules, `rationale_*.md` notes), the D3 force layout in this repository (`quartz.layout.ts`) has been calibrated to prevent dense, overlapping "hairball" clusters:
+
+* **Triple Node Repulsion (`repelForce: 1.5`)**: Increased from the default `0.5` to strongly repel neighboring nodes so text labels have breathing room.
+* **Double Edge Distance (`linkDistance: 60`)**: Increased from `30` to `60` so distinct semantic clusters spread out clearly across the global canvas.
+* **Weaker Center Attraction (`centerForce: 0.2`)**: Reduced from `0.3` to allow clusters to drift outward into distinct communities rather than collapsing into a tight ball at the center.
+* **Local Neighborhood Precision (`localGraph: { depth: 1, linkDistance: 40 }`)**: When viewing any individual note page, the sidebar graph isolates only the immediate `depth: 1` callers/callees (~10 to 25 nodes), ensuring crisp and 100% human-readable daily navigation.
