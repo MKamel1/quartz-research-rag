@@ -1,0 +1,85 @@
+---
+source_file: "contracts/provenance.py"
+type: "code"
+community: "Anchor"
+location: "L51"
+tags:
+  - graphify/code
+  - graphify/INFERRED
+  - community/Anchor
+---
+
+# Anchor
+
+## Connections
+- [[._build_chunk()]] - `calls` [EXTRACTED]
+- [[._row_to_chunk()]] - `calls` [EXTRACTED]
+- [[.get_span()_1]] - `references` [EXTRACTED]
+- [[.get_span()_2]] - `references` [EXTRACTED]
+- [[.get_span()_3]] - `references` [EXTRACTED]
+- [[.get_span()_4]] - `references` [EXTRACTED]
+- [[Chunk]] - `uses` [INFERRED]
+- [[Chunker]] - `uses` [INFERRED]
+- [[Citation]] - `uses` [INFERRED]
+- [[DocStoreDouble]] - `uses` [INFERRED]
+- [[DocStoreDouble_1]] - `uses` [INFERRED]
+- [[DocumentStore]] - `uses` [INFERRED]
+- [[EmbedderSpy]] - `uses` [INFERRED]
+- [[EmbedderSpy_1]] - `uses` [INFERRED]
+- [[FakeRetriever]] - `uses` [INFERRED]
+- [[FrozenModel]] - `uses` [INFERRED]
+- [[GroundedResult]] - `uses` [INFERRED]
+- [[McpServer]] - `uses` [INFERRED]
+- [[PoisonedParser]] - `uses` [INFERRED]
+- [[RecordingDocStore]] - `uses` [INFERRED]
+- [[RecordingDocStore_1]] - `uses` [INFERRED]
+- [[RecordingVectorIndex]] - `uses` [INFERRED]
+- [[RecordingVectorIndex_1]] - `uses` [INFERRED]
+- [[RerankCandidate]] - `uses` [INFERRED]
+- [[RetrievalCoverage]] - `uses` [INFERRED]
+- [[Rig]] - `uses` [INFERRED]
+- [[SpyBatchParser]] - `uses` [INFERRED]
+- [[SpyBatchParserWithPrefetch]] - `uses` [INFERRED]
+- [[SpyChunker]] - `uses` [INFERRED]
+- [[SpyChunker_1]] - `uses` [INFERRED]
+- [[SpyParser]] - `uses` [INFERRED]
+- [[SpyParser_1]] - `uses` [INFERRED]
+- [[SpyRetriever]] - `uses` [INFERRED]
+- [[StubHarvester_2]] - `uses` [INFERRED]
+- [[StubHarvester_3]] - `uses` [INFERRED]
+- [[SummarizerSpy]] - `uses` [INFERRED]
+- [[SummarizerSpy_1]] - `uses` [INFERRED]
+- [[What grounds any retrievable item to its source. No anchor - the item is invali]] - `rationale_for` [EXTRACTED]
+- [[_Args]] - `uses` [INFERRED]
+- [[_FakeDocumentStore]] - `uses` [INFERRED]
+- [[_FakeHeaderGenerator]] - `uses` [INFERRED]
+- [[_FakePaperSource]] - `uses` [INFERRED]
+- [[__init__.py_4]] - `imports` [EXTRACTED]
+- [[_anchor()]] - `calls` [EXTRACTED]
+- [[_hit()]] - `calls` [EXTRACTED]
+- [[_make_chunk()]] - `calls` [EXTRACTED]
+- [[_make_chunk()_1]] - `calls` [EXTRACTED]
+- [[_seed_chunk()]] - `calls` [EXTRACTED]
+- [[chunker.py]] - `imports` [EXTRACTED]
+- [[chunker.py_1]] - `imports` [EXTRACTED]
+- [[conftest.py]] - `imports` [EXTRACTED]
+- [[document_store.py_1]] - `imports` [EXTRACTED]
+- [[get_span()]] - `references` [EXTRACTED]
+- [[make_anchor()_1]] - `references` [EXTRACTED]
+- [[make_chunk()_2]] - `calls` [EXTRACTED]
+- [[mcp_server.py_1]] - `imports` [EXTRACTED]
+- [[provenance.py]] - `contains` [EXTRACTED]
+- [[retriever.py]] - `imports` [EXTRACTED]
+- [[serve.py]] - `imports` [EXTRACTED]
+- [[test_bbox_survives_json_round_trip()]] - `calls` [EXTRACTED]
+- [[test_document_store.py_1]] - `imports` [EXTRACTED]
+- [[test_ingest_state_sqlite.py]] - `imports` [EXTRACTED]
+- [[test_mcp_server.py_1]] - `imports` [EXTRACTED]
+- [[test_obsidian_export.py]] - `imports` [EXTRACTED]
+- [[test_orchestrator.py]] - `imports` [EXTRACTED]
+- [[test_provenance.py]] - `imports` [EXTRACTED]
+- [[test_reembed_experiment.py]] - `imports` [EXTRACTED]
+- [[test_retrieval_eval.py]] - `imports` [EXTRACTED]
+- [[test_retriever.py_1]] - `imports` [EXTRACTED]
+
+#graphify/code #graphify/INFERRED #community/Anchor

@@ -1,0 +1,86 @@
+---
+source_file: "contracts/document_store.py"
+type: "code"
+community: "PaperRecord"
+location: "L18"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/PaperRecord
+---
+
+# PaperRecord
+
+## Connections
+- [[.__init__()_13]] - `references` [EXTRACTED]
+- [[.__init__()_16]] - `references` [EXTRACTED]
+- [[._finish()]] - `calls` [EXTRACTED]
+- [[._upsert_record()]] - `references` [EXTRACTED]
+- [[._upsert_with_retry()]] - `references` [EXTRACTED]
+- [[.get()]] - `references` [EXTRACTED]
+- [[.get()_1]] - `references` [EXTRACTED]
+- [[.get()_2]] - `references` [EXTRACTED]
+- [[.get()_7]] - `references` [EXTRACTED]
+- [[.get()_8]] - `references` [EXTRACTED]
+- [[.iter_papers()]] - `references` [EXTRACTED]
+- [[.iter_papers()_2]] - `references` [EXTRACTED]
+- [[.put()]] - `references` [EXTRACTED]
+- [[.put()_2]] - `references` [EXTRACTED]
+- [[Chunk]] - `uses` [INFERRED]
+- [[DocStoreDouble_1]] - `uses` [INFERRED]
+- [[DocumentStore]] - `uses` [INFERRED]
+- [[EmbedderSpy_1]] - `uses` [INFERRED]
+- [[ExportResult]] - `uses` [INFERRED]
+- [[FrozenModel]] - `uses` [INFERRED]
+- [[IngestionOrchestrator]] - `uses` [INFERRED]
+- [[PaperRef]] - `uses` [INFERRED]
+- [[PaperSource]] - `uses` [INFERRED]
+- [[ParsedDoc]] - `uses` [INFERRED]
+- [[RecordingDocStore]] - `uses` [INFERRED]
+- [[RecordingDocStore_1]] - `uses` [INFERRED]
+- [[RecordingVectorIndex_1]] - `uses` [INFERRED]
+- [[ReembedError]] - `uses` [INFERRED]
+- [[Rig]] - `uses` [INFERRED]
+- [[SpyBatchParser]] - `uses` [INFERRED]
+- [[SpyBatchParserWithPrefetch]] - `uses` [INFERRED]
+- [[SpyChunker_1]] - `uses` [INFERRED]
+- [[SpyParser_1]] - `uses` [INFERRED]
+- [[SpyRetriever]] - `uses` [INFERRED]
+- [[StubHarvester_3]] - `uses` [INFERRED]
+- [[SummarizerSpy_1]] - `uses` [INFERRED]
+- [[The complete source-of-truth bundle for one paper. `DocumentStore.put(PaperRecor]] - `rationale_for` [EXTRACTED]
+- [[_Args]] - `uses` [INFERRED]
+- [[_DocumentStore]] - `uses` [INFERRED]
+- [[_EmbedderSeam]] - `uses` [INFERRED]
+- [[_FakeDocumentStore]] - `uses` [INFERRED]
+- [[_FakeHeaderGenerator]] - `uses` [INFERRED]
+- [[_FakePaperSource]] - `uses` [INFERRED]
+- [[_HeaderGenerator]] - `uses` [INFERRED]
+- [[_Prepared]] - `uses` [INFERRED]
+- [[_VectorStore]] - `uses` [INFERRED]
+- [[__init__.py_4]] - `imports` [EXTRACTED]
+- [[_make_record()]] - `references` [EXTRACTED]
+- [[_records()]] - `references` [EXTRACTED]
+- [[_section_structure()]] - `references` [EXTRACTED]
+- [[_seed_chunk()]] - `calls` [EXTRACTED]
+- [[_seed_summary()]] - `calls` [EXTRACTED]
+- [[conftest.py]] - `imports` [EXTRACTED]
+- [[document_store.py]] - `contains` [EXTRACTED]
+- [[document_store.py_1]] - `imports` [EXTRACTED]
+- [[make_paper_record()]] - `references` [EXTRACTED]
+- [[make_paper_record()_2]] - `references` [EXTRACTED]
+- [[obsidian_export.py]] - `imports` [EXTRACTED]
+- [[orchestrator.py]] - `imports` [EXTRACTED]
+- [[reembed_experiment.py]] - `imports` [EXTRACTED]
+- [[render_index()]] - `references` [EXTRACTED]
+- [[render_note()]] - `references` [EXTRACTED]
+- [[test_a_chunk_whose_header_generation_fails_still_gets_embedded_with_its_own_text()]] - `calls` [EXTRACTED]
+- [[test_document_store.py_1]] - `imports` [EXTRACTED]
+- [[test_get_paper_returns_paper_summary_view()]] - `calls` [EXTRACTED]
+- [[test_mcp_server.py_1]] - `imports` [EXTRACTED]
+- [[test_obsidian_export.py]] - `imports` [EXTRACTED]
+- [[test_orchestrator.py]] - `imports` [EXTRACTED]
+- [[test_reembed_experiment.py]] - `imports` [EXTRACTED]
+- [[test_retriever.py_1]] - `imports` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/PaperRecord

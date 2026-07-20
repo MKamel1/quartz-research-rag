@@ -1,0 +1,18 @@
+---
+source_file: "app/dashboard/test_server.py"
+type: "code"
+community: "test_server.py"
+location: "L285"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/test_serverpy
+---
+
+# test_control_start_forwards_target_and_parse_workers()
+
+## Connections
+- [[_post()]] - `calls` [EXTRACTED]
+- [[test_server.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/test_serverpy

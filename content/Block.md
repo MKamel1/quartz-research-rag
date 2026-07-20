@@ -1,0 +1,86 @@
+---
+source_file: "contracts/provenance.py"
+type: "code"
+community: "ParsedDoc"
+location: "L69"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/ParsedDoc
+---
+
+# Block
+
+## Connections
+- [[.__init__()_78]] - `calls` [EXTRACTED]
+- [[._build_chunk()]] - `references` [EXTRACTED]
+- [[._group_blocks()]] - `references` [EXTRACTED]
+- [[._row_to_block()]] - `references` [EXTRACTED]
+- [[._split_oversized()]] - `references` [EXTRACTED]
+- [[.get_block()]] - `references` [EXTRACTED]
+- [[.get_block()_1]] - `references` [EXTRACTED]
+- [[.get_blocks()]] - `references` [EXTRACTED]
+- [[.get_blocks()_1]] - `references` [EXTRACTED]
+- [[.get_blocks()_2]] - `references` [EXTRACTED]
+- [[Chunker]] - `uses` [INFERRED]
+- [[DocStoreDouble]] - `uses` [INFERRED]
+- [[DocStoreDouble_1]] - `uses` [INFERRED]
+- [[DocumentStore]] - `uses` [INFERRED]
+- [[EmbedderSpy]] - `uses` [INFERRED]
+- [[EmbedderSpy_1]] - `uses` [INFERRED]
+- [[Figure]] - `uses` [INFERRED]
+- [[FrozenModel]] - `uses` [INFERRED]
+- [[One layout block from the parser, in reading order. The unit provenance anchors]] - `rationale_for` [EXTRACTED]
+- [[ParsedDoc]] - `uses` [INFERRED]
+- [[PoisonedParser]] - `uses` [INFERRED]
+- [[RecordingDocStore]] - `uses` [INFERRED]
+- [[RecordingDocStore_1]] - `uses` [INFERRED]
+- [[RecordingVectorIndex]] - `uses` [INFERRED]
+- [[RecordingVectorIndex_1]] - `uses` [INFERRED]
+- [[Reference]] - `uses` [INFERRED]
+- [[Rig]] - `uses` [INFERRED]
+- [[SpyBatchParser]] - `uses` [INFERRED]
+- [[SpyBatchParserWithPrefetch]] - `uses` [INFERRED]
+- [[SpyChunker]] - `uses` [INFERRED]
+- [[SpyChunker_1]] - `uses` [INFERRED]
+- [[SpyParser]] - `uses` [INFERRED]
+- [[SpyParser_1]] - `uses` [INFERRED]
+- [[SpyRetriever]] - `uses` [INFERRED]
+- [[StubHarvester_2]] - `uses` [INFERRED]
+- [[StubHarvester_3]] - `uses` [INFERRED]
+- [[SummarizerSpy]] - `uses` [INFERRED]
+- [[SummarizerSpy_1]] - `uses` [INFERRED]
+- [[TableItem]] - `uses` [INFERRED]
+- [[_FakePaperSource]] - `uses` [INFERRED]
+- [[_GoldenPaper]] - `uses` [INFERRED]
+- [[_SectionTracker]] - `uses` [INFERRED]
+- [[__init__.py_4]] - `imports` [EXTRACTED]
+- [[_block()]] - `calls` [EXTRACTED]
+- [[_block()_1]] - `calls` [EXTRACTED]
+- [[_build_blocks()]] - `references` [EXTRACTED]
+- [[_make_parsed()]] - `calls` [EXTRACTED]
+- [[_prose_doc()]] - `calls` [EXTRACTED]
+- [[_seed_chunk()]] - `calls` [EXTRACTED]
+- [[chunker.py_1]] - `imports` [EXTRACTED]
+- [[conftest.py]] - `imports` [EXTRACTED]
+- [[document_store.py_1]] - `imports` [EXTRACTED]
+- [[make_block()]] - `references` [EXTRACTED]
+- [[make_block()_2]] - `references` [EXTRACTED]
+- [[make_parsed()]] - `calls` [EXTRACTED]
+- [[parser.py]] - `imports` [EXTRACTED]
+- [[parser.py_1]] - `imports` [EXTRACTED]
+- [[provenance.py]] - `contains` [EXTRACTED]
+- [[test_chunker.py_1]] - `imports` [EXTRACTED]
+- [[test_citation_resolves_via_get_span()]] - `calls` [EXTRACTED]
+- [[test_document_store.py_1]] - `imports` [EXTRACTED]
+- [[test_get_paper_returns_paper_summary_view()]] - `calls` [EXTRACTED]
+- [[test_get_span_returns_verbatim_source_text()]] - `calls` [EXTRACTED]
+- [[test_ingest_state_sqlite.py]] - `imports` [EXTRACTED]
+- [[test_mcp_server.py_1]] - `imports` [EXTRACTED]
+- [[test_obsidian_export.py]] - `imports` [EXTRACTED]
+- [[test_orchestrator.py]] - `imports` [EXTRACTED]
+- [[test_parser.py_1]] - `imports` [EXTRACTED]
+- [[test_retriever.py_1]] - `imports` [EXTRACTED]
+- [[test_summarizer.py]] - `imports` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/ParsedDoc

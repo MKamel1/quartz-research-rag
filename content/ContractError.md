@@ -1,0 +1,85 @@
+---
+source_file: "contracts/errors.py"
+type: "code"
+community: "ContractError"
+location: "L39"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/ContractError
+---
+
+# ContractError
+
+## Connections
+- [[._normalize()]] - `calls` [EXTRACTED]
+- [[._read_markdown_blob()]] - `calls` [EXTRACTED]
+- [[.embed()_2]] - `calls` [EXTRACTED]
+- [[.get_block()]] - `calls` [EXTRACTED]
+- [[.get_chunk()]] - `calls` [EXTRACTED]
+- [[.get_chunk()_1]] - `calls` [EXTRACTED]
+- [[.get_paper()_1]] - `calls` [EXTRACTED]
+- [[.get_summary()]] - `calls` [EXTRACTED]
+- [[.get_summary()_1]] - `calls` [EXTRACTED]
+- [[A broken invariant — a bug. Crash early; do not default around it.]] - `rationale_for` [EXTRACTED]
+- [[DocumentStore]] - `uses` [INFERRED]
+- [[Exception]] - `inherits` [EXTRACTED]
+- [[IngestionOrchestrator]] - `uses` [INFERRED]
+- [[McpServer]] - `uses` [INFERRED]
+- [[RecordingDocStore_1]] - `uses` [INFERRED]
+- [[ReindexableVectorStore]] - `uses` [INFERRED]
+- [[Retriever_2]] - `uses` [INFERRED]
+- [[TeiEmbedder_2]] - `uses` [INFERRED]
+- [[_FakeInfoClient]] - `uses` [INFERRED]
+- [[_FakeVectorIndex]] - `uses` [INFERRED]
+- [[_Prepared]] - `uses` [INFERRED]
+- [[_SectionTracker]] - `uses` [INFERRED]
+- [[__init__.py_4]] - `imports` [EXTRACTED]
+- [[_assemble_parsed_doc()]] - `calls` [EXTRACTED]
+- [[_at_least()]] - `calls` [EXTRACTED]
+- [[_verify_snapshot_present()]] - `calls` [EXTRACTED]
+- [[config.py_1]] - `imports` [EXTRACTED]
+- [[document_store.py_1]] - `imports` [EXTRACTED]
+- [[embedder.py_1]] - `imports` [EXTRACTED]
+- [[errors.py]] - `contains` [EXTRACTED]
+- [[fusion.py]] - `imports` [EXTRACTED]
+- [[load_config()]] - `calls` [EXTRACTED]
+- [[mcp_server.py_1]] - `imports` [EXTRACTED]
+- [[orchestrator.py]] - `imports` [EXTRACTED]
+- [[parse_batch()]] - `calls` [EXTRACTED]
+- [[parser.py_1]] - `imports` [EXTRACTED]
+- [[reindex_idf.py]] - `imports` [EXTRACTED]
+- [[retriever.py_1]] - `imports` [EXTRACTED]
+- [[rrf_fuse()]] - `calls` [EXTRACTED]
+- [[run_reindex_idf()]] - `calls` [EXTRACTED]
+- [[test_config.py_1]] - `imports` [EXTRACTED]
+- [[test_document_store.py_1]] - `imports` [EXTRACTED]
+- [[test_duplicate_id_within_one_ranked_list_is_a_contract_error()]] - `indirect_call` [INFERRED]
+- [[test_duplicate_ids_raise_contract_error()]] - `indirect_call` [INFERRED]
+- [[test_each_is_raisable_and_catchable_independently()]] - `calls` [EXTRACTED]
+- [[test_empty_file_raises_contract_error()]] - `indirect_call` [INFERRED]
+- [[test_errors.py]] - `imports` [EXTRACTED]
+- [[test_fusion.py]] - `imports` [EXTRACTED]
+- [[test_get_block_resolves_and_raises_on_unknown()]] - `indirect_call` [INFERRED]
+- [[test_get_chunk_resolves_and_raises_on_unknown()]] - `indirect_call` [INFERRED]
+- [[test_get_summary_resolves_and_raises_on_unknown()]] - `indirect_call` [INFERRED]
+- [[test_hybrid_dense_weight_out_of_range_is_a_contract_error()]] - `indirect_call` [INFERRED]
+- [[test_i_have_a_snapshot_refuses_when_no_snapshot_is_actually_present()]] - `indirect_call` [INFERRED]
+- [[test_i_have_a_snapshot_refuses_when_snapshot_is_for_a_different_collection()]] - `indirect_call` [INFERRED]
+- [[test_idf_modifier_still_missing_after_rebuild_raises()]] - `indirect_call` [INFERRED]
+- [[test_non_positive_rrf_k_is_a_contract_error()]] - `indirect_call` [INFERRED]
+- [[test_non_positive_rrf_k_raises_contract_error()]] - `indirect_call` [INFERRED]
+- [[test_parse_batch_rejects_mismatched_paper_ids_length()]] - `indirect_call` [INFERRED]
+- [[test_parser.py_1]] - `imports` [EXTRACTED]
+- [[test_point_count_mismatch_after_rebuild_raises_and_does_not_report_success()]] - `indirect_call` [INFERRED]
+- [[test_put_failure_on_reput_leaves_prior_blob_untouched()]] - `indirect_call` [INFERRED]
+- [[test_put_is_atomic_across_all_four_tables()]] - `indirect_call` [INFERRED]
+- [[test_reindex_idf.py]] - `imports` [EXTRACTED]
+- [[test_retriever.py_1]] - `imports` [EXTRACTED]
+- [[test_three_classes_are_distinct_exception_subclasses()]] - `indirect_call` [INFERRED]
+- [[test_top_level_list_raises_contract_error()]] - `indirect_call` [INFERRED]
+- [[test_vector_index.py_1]] - `imports` [EXTRACTED]
+- [[test_verify_snapshot_present_rejects_a_zero_byte_snapshot_file()]] - `indirect_call` [INFERRED]
+- [[test_weight_out_of_range_raises_contract_error()]] - `indirect_call` [INFERRED]
+
+#graphify/code #graphify/EXTRACTED #community/ContractError

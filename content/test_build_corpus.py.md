@@ -1,0 +1,88 @@
+---
+source_file: "app/test_build_corpus.py"
+type: "code"
+community: "test_build_corpus.py"
+location: "L1"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/test_build_corpuspy
+---
+
+# test_build_corpus.py
+
+## Connections
+- [[Tests for `app.build_corpus` -- offline, no real GPUnetworkingestprefetch sub]] - `rationale_for` [EXTRACTED]
+- [[_alive_ignoring_cmdline()]] - `contains` [EXTRACTED]
+- [[_cleanup_pid()]] - `contains` [EXTRACTED]
+- [[_fake_ensure_prefetch()]] - `contains` [EXTRACTED]
+- [[_insert_paper()_1]] - `contains` [EXTRACTED]
+- [[_is_live_prefetch()]] - `imports` [EXTRACTED]
+- [[_normalize_date()]] - `imports` [EXTRACTED]
+- [[_order_by_relevance()]] - `imports` [EXTRACTED]
+- [[_parse_args()_11]] - `imports` [EXTRACTED]
+- [[_prefetch_pid_path()]] - `imports` [EXTRACTED]
+- [[_run_ingest()]] - `imports` [EXTRACTED]
+- [[_spawn_prefetch()]] - `imports` [EXTRACTED]
+- [[_validate_cli_args()]] - `imports` [EXTRACTED]
+- [[build_corpus.py]] - `imports_from` [EXTRACTED]
+- [[build_to_target()]] - `imports` [EXTRACTED]
+- [[cached_not_done()]] - `imports` [EXTRACTED]
+- [[done_count()]] - `imports` [EXTRACTED]
+- [[ensure_prefetch_running()]] - `imports` [EXTRACTED]
+- [[ingest_state_sqlite.py]] - `imports_from` [EXTRACTED]
+- [[migrate.py]] - `imports_from` [EXTRACTED]
+- [[test_build_to_target_batch_size_caps_ids_per_iteration()]] - `contains` [EXTRACTED]
+- [[test_build_to_target_calls_ensure_prefetch_exactly_once()]] - `contains` [EXTRACTED]
+- [[test_build_to_target_category_filter_keeps_going_past_a_stale_global_done_count()]] - `contains` [EXTRACTED]
+- [[test_build_to_target_date_filter_keeps_going_past_a_stale_global_done_count()]] - `contains` [EXTRACTED]
+- [[test_build_to_target_default_max_idle_matches_module_constant()]] - `contains` [EXTRACTED]
+- [[test_build_to_target_default_ordering_never_calls_relevance_rank()]] - `contains` [EXTRACTED]
+- [[test_build_to_target_forwards_telemetry_poll_interval_when_set()]] - `contains` [EXTRACTED]
+- [[test_build_to_target_idle_guard_trips_after_max_idle_consecutive_waits()]] - `contains` [EXTRACTED]
+- [[test_build_to_target_omits_telemetry_poll_interval_kwarg_when_unset()]] - `contains` [EXTRACTED]
+- [[test_build_to_target_progress_resets_the_idle_counter()]] - `contains` [EXTRACTED]
+- [[test_build_to_target_reaches_target_over_several_iterations()]] - `contains` [EXTRACTED]
+- [[test_build_to_target_relevance_ordering_reorders_each_batch()]] - `contains` [EXTRACTED]
+- [[test_build_to_target_relevance_ordering_with_empty_cache_never_ranks()]] - `contains` [EXTRACTED]
+- [[test_build_to_target_relevance_rank_is_computed_once_and_memoized()]] - `contains` [EXTRACTED]
+- [[test_build_to_target_stops_when_cache_exhausted_and_prefetch_dead()]] - `contains` [EXTRACTED]
+- [[test_build_to_target_waits_when_caught_up_but_prefetch_still_alive()]] - `contains` [EXTRACTED]
+- [[test_build_to_target_without_category_filter_calls_done_count_with_plain_signature()]] - `contains` [EXTRACTED]
+- [[test_build_to_target_without_date_filter_calls_done_count_with_plain_signature()]] - `contains` [EXTRACTED]
+- [[test_build_to_target_writes_batch_ids_file_and_passes_it_to_run_ingest()]] - `contains` [EXTRACTED]
+- [[test_build_to_target_zero_net_progress_batch_counts_as_a_stall()]] - `contains` [EXTRACTED]
+- [[test_cached_not_done_empty_cache_returns_empty_list()]] - `contains` [EXTRACTED]
+- [[test_cached_not_done_is_cached_pdfs_minus_done()]] - `contains` [EXTRACTED]
+- [[test_cached_not_done_is_sorted_and_stable()]] - `contains` [EXTRACTED]
+- [[test_cached_not_done_tolerates_a_db_that_does_not_exist_yet()]] - `contains` [EXTRACTED]
+- [[test_done_count_category_filter_excludes_not_yet_done_papers()]] - `contains` [EXTRACTED]
+- [[test_done_count_category_filter_is_an_or_match_like_the_harvester()]] - `contains` [EXTRACTED]
+- [[test_done_count_category_filter_of_missing_db_is_zero()]] - `contains` [EXTRACTED]
+- [[test_done_count_combined_date_and_category_filter_requires_both()]] - `contains` [EXTRACTED]
+- [[test_done_count_counts_only_done_stage()]] - `contains` [EXTRACTED]
+- [[test_done_count_date_filter_accepts_compact_yyyymmdd()]] - `contains` [EXTRACTED]
+- [[test_done_count_date_filter_counts_only_papers_published_in_range()]] - `contains` [EXTRACTED]
+- [[test_done_count_date_filter_excludes_not_yet_done_papers()]] - `contains` [EXTRACTED]
+- [[test_done_count_date_filter_of_missing_db_is_zero()]] - `contains` [EXTRACTED]
+- [[test_done_count_empty_categories_list_is_treated_as_no_filter()]] - `contains` [EXTRACTED]
+- [[test_done_count_of_missing_db_is_zero()]] - `contains` [EXTRACTED]
+- [[test_ensure_prefetch_running_launches_when_absent()]] - `contains` [EXTRACTED]
+- [[test_ensure_prefetch_running_replaces_a_dead_pid_file()]] - `contains` [EXTRACTED]
+- [[test_ensure_prefetch_running_reuses_an_existing_live_downloader()]] - `contains` [EXTRACTED]
+- [[test_is_live_prefetch_false_for_a_dead_pid()_1]] - `contains` [EXTRACTED]
+- [[test_is_live_prefetch_false_for_a_process_whose_cmdline_does_not_name_prefetch()]] - `contains` [EXTRACTED]
+- [[test_normalize_date_converts_compact_yyyymmdd()]] - `contains` [EXTRACTED]
+- [[test_normalize_date_passes_through_iso()]] - `contains` [EXTRACTED]
+- [[test_order_by_relevance_ignores_ranked_ids_not_in_the_batch()]] - `contains` [EXTRACTED]
+- [[test_order_by_relevance_is_a_reordering_not_a_filter()]] - `contains` [EXTRACTED]
+- [[test_order_by_relevance_puts_ranked_ids_first_in_rank_order()]] - `contains` [EXTRACTED]
+- [[test_order_by_relevance_with_no_ranked_ids_falls_back_to_sorted()]] - `contains` [EXTRACTED]
+- [[test_run_ingest_appends_telemetry_poll_interval_flag_only_when_set()]] - `contains` [EXTRACTED]
+- [[test_spawn_prefetch_redirects_stdout_and_stderr_to_a_dedicated_log()]] - `contains` [EXTRACTED]
+- [[test_validate_cli_args_accepts_defaults()]] - `contains` [EXTRACTED]
+- [[test_validate_cli_args_accepts_unset_batch_size()]] - `contains` [EXTRACTED]
+- [[test_validate_cli_args_rejects_negative_batch_size()]] - `contains` [EXTRACTED]
+- [[test_validate_cli_args_rejects_parse_workers_zero()]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/test_build_corpuspy
